@@ -11,12 +11,12 @@ import org.junit.Test;
 /**
  * To make these tests pass, you will need to create a Minion class with the member variables below.
  * 
- * <code>
+ * 
  * 			private String name; 
  * 			private int eyes; 
  * 			private String color; 
  * 			private String master;
- * </code>
+ * 
  * 
  * Create a constructor, and getters and setters for the member variables. If they’re done right, these tests will pass.
  * 
@@ -48,7 +48,66 @@ public class MinionTest {
 		assertEquals("Napoleon", stuart.getMaster());
 	}
 
-}
+	class Minion {
+		
+		Minion(String name, int eyes, String color, String Master){
+			
+			this.name= name;
+			this.color= color;
+			this. eyes= eyes;
+			this. Master= Master;
+		}
+		
+		
+		Minion stuart =new Minion("Stuart", 1,"yellow", "") ;
+		Minion dave =new Minion("Dave", 2, "yellow", "");
+			
+		
+		
+private String name;
+		
+		String getName() {
+			
+			
+			return name;
+		}
+		
+		void getName(String name) {
+			this.name= name;
+			
+		}
+		
+		private int eyes;
+		
+		int getEyes() {
+			
+			return eyes;
+			
+			
+		}
+		private String color;
+		
+		String getColor() {
+			
+
+			return color;
+		}
+		private String Master;
+		
+		String getMaster() {
+			
+			
+			return Master;
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	}}
 
 
 
