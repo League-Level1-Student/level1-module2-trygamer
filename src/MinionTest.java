@@ -3,7 +3,6 @@
  *    Level 1
  */
 
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -49,55 +48,70 @@ public class MinionTest {
 	}
 
 	class Minion {
+		private String name;
+		private int eyes;
+		private String color;
+		private String Master;
+		
+		
+		
+		
+		
+		
+		
 		
 		Minion(String name, int eyes, String color, String Master){
-			
+
 			this.name= name;
 			this.color= color;
 			this. eyes= eyes;
 			this. Master= Master;
-		}
-		
-		
-		Minion stuart =new Minion("Stuart", 1,"yellow", "") ;
-		Minion dave =new Minion("Dave", 2, "yellow", "");
 			
-		
-		
-private String name;
-		
+		}
+	
 		String getName() {
 			
 			
 			return name;
 		}
 		
-		void getName(String name) {
+		void setName(String name) {
 			this.name= name;
 			
 		}
 		
-		private int eyes;
+	
 		
 		int getEyes() {
 			
 			return eyes;
-			
-			
 		}
-		private String color;
+			
+		void setEyes(int eyes) {
+			this.eyes= eyes;
+		
+		}
+		
 		
 		String getColor() {
 			
 
 			return color;
 		}
-		private String Master;
+		void setColor(String color) {
+			this.color= color;
+		
+		}
 		
 		String getMaster() {
 			
 			
 			return Master;
+		}
+			void setMaster(String Master) {
+				this.Master= Master;
+			
+			}
 		
 		
 		
@@ -107,7 +121,4 @@ private String name;
 	}
 	
 	
-	}}
-
-
-
+}
