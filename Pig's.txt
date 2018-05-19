@@ -1,0 +1,44 @@
+3. Fix any problems with the following constructors.   class Hell { hotness = 2000;        Hell(int hotness) {  this.hotness= hotness;        }  }  public class Bacon {        String style = "streaky";        public Bacon (String style) {             this.style = style;       }  }  public class Unicorn { 
+int horns= null;        public Unicorn() {             this.horns = 1;       }  }  class Narwhal { 
+int size = 200;
+        Narwhale(){ 
+this.size= size;
+ } 
+
+
+
+
+
+
+
+
+
+
+class Candy {         private String maker; //e.g. Hershey’s, Willy Wonka        private boolean isChocolatey;        private double price; } 
+1. Write a constructor for this class.    Candy( String maker, boolean isChocolatey, double price){
+
+this.isChocolately= isChocolately;
+
+this.price=price;
+
+this.maker =maker;
+}      
+2. Instantiate your favorite candy  Candy c = new Candy(“Hershey”,true, 3.25);
+             
+3. Finish the Pig constructor.
+class Pig {         private String name;        private boolean isSheepHerder;         public Pig(String name, boolean isHerdSheep) {             // write code here     this.name=name;
+
+this.isHerdSheep= isHerdSheep;        }       public boolean willBecomeBacon() {             if(this.isSheepHerder)                   return false;             else return true;       } 
+4. Instantiate two pigs, “Babe” and “Rasher”.    Pig b = new Pig(“Babe”,false);
+
+Pig r = new Pig(“Rasher”,false);   
+5. Write code to create strawberry jam and spread it on toast.    class Jam{ 
+
+String Strawberry;
+
+}
+
+Jam( String Strawberry)
+
+    
+6. Imagine there is a pig instance called ziggy. Write code that will print “bacon for breakfast” if ziggy is destined to be turned into bacon, or “eggs for breakfast” if he is not.   
