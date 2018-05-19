@@ -24,7 +24,7 @@ public class TeaPartyTest {
        
    public String  welcome(String name, boolean female, boolean knighted) {
 	   
-	   
+	    
 	   String result= "Hello ";
 	   
 	   if(female==true&&knighted== false ) {
